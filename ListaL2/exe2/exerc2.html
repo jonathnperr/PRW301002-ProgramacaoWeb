@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+
+<head> 
+  <meta charset="utf-8"> 
+  <title> Vetores em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head>
+
+<body> 
+
+  <h1> ListaL2 - Exercício: Cálculo de média das notas com nomes e vetores </h1>
+  <form action="exerc2.php" method="post"> 
+
+    <fieldset>
+      <legend> Nota de PRW Aluno 1 </legend> <br>
+
+      <label class="alinha"> Nome do aluno 1: </label>
+      <input type="text" name="nome1" autofocus>
+
+      <label class="alinha"> Nota: </label>
+      <input type="number" name="nota1"  min="0" max="10" step=".1"> <br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend> Nota de PRW Aluno 2 </legend> <br>
+
+      <label class="alinha"> Nome do aluno 2: </label>
+      <input type="text" name="nome2">
+
+      <label class="alinha"> Nota: </label>
+      <input type="number" name="nota2"  min="0" max="10" step=".1"> <br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend> Nota de PRW Aluno 3 </legend> <br>
+
+      <label class="alinha"> Nome do aluno 3: </label>
+      <input type="text" name="nome3">
+
+      <label class="alinha"> Nota: </label>
+      <input type="number" name="nota3"  min="0" max="10" step=".1"> <br><br>
+    </fieldset>
+
+    <button> Processar dados do vetor </button>
+  </form>
+</body> 
+</html> 

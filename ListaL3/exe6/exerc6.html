@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Matrizes em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> ListaL3 - Farmácia </h1>
+
+  <form action="exerc6.php" method="post">
+    <fieldset>
+      <legend> Medicamento 1 </legend>
+      <label class="alinha"> Código: </label>
+      <input type="text" name="cod1" autofocus> <br>
+
+      <label class="alinha"> Nome: </label>
+      <input type="text" name="nome1"> <br>
+
+      <label class="alinha"> Preço: </label>
+      <input type="number" name="preco1" min="0" step="0.01">
+    </fieldset>
+
+    <fieldset>
+      <legend> Medicamento 2 </legend>
+      <label class="alinha"> Código: </label>
+      <input type="text" name="cod2" autofocus> <br>
+
+      <label class="alinha"> Nome: </label>
+      <input type="text" name="nome2"> <br>
+
+      <label class="alinha"> Preço: </label>
+      <input type="number" name="preco2" min="0" step="0.01">
+    </fieldset>
+
+    <fieldset>
+      <legend> Medicamento 3 </legend>
+      <label class="alinha"> Código: </label>
+      <input type="text" name="cod3" autofocus> <br>
+
+      <label class="alinha"> Nome: </label>
+      <input type="text" name="nome3"> <br>
+
+      <label class="alinha"> Preço: </label>
+      <input type="number" name="preco3" min="0" step="0.01">
+    </fieldset>
+
+    <fieldset>
+      <legend> Módulo de pesquisa na matriz </legend>
+      <label> Código do medicamento: </label>
+      <input type="text" name="cod-pesquisado">  
+    </fieldset>
+    
+    <button> Submit </button>      
+  </form>    
+</body> 
+</html> 

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    margin: 0;
+    font-family: Rubik;
+    background-image: url(https://i.pinimg.com/736x/5e/b3/ba/5eb3babb7437078bc16705bf8b8789a7.jpg);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid #27425E;
+    margin-bottom: 35px;
+    box-shadow: 0 0 5px 5px #B3BEC8;
+    color: aliceblue;
+    background-image: url(https://i.pinimg.com/736x/a2/88/4c/a2884c56997e039f290f9fbcb5b69f06.jpg);
+    text-shadow: 1px 1px 5px #00000050;
+}
+
+legend{
+    box-align: center;
+}
+
+label.alinha {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 140px;
+    margin-right: 50px;
+}
+
+label {
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+label[name="teste"] {
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 148px;
+}
+
+label[name="teste2"] {
+    width: 185px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+input {
+    width: 200px;
+    display: inline-block;
+}
+
+input, button {
+    font-family: Rubik;
+}
+
+input[name="classificacao"]{
+    margin-left: 100px;
+}
+
+textarea {
+    margin-left: 315px;
+}
+
+button {
+    height: 35px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: Rubik;
+    font-size: 15px;
+}
+
+fieldset {
+    width: 50%;
+    margin: 30px auto;
+    padding-left: 20px;
+    border-radius: 5px; /*arredonda os cantos da caixa*/
+    box-shadow: 5px 5px 5px #bbb;
+    background-color: rgb(255, 255, 255);
+}
+
+div.alinha-botoes {
+    text-align: center; /*recurso para alinharmos botões no centro de uma div*/
+}
+
+p {
+     width: 50%;
+    border-radius: 10px;
+    border: 1px solid #7c7c7c;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+span {
+    font-weight: bold;
+    color: #00000050
+}
+
+table {
+    width: 50%;
+    border: 1px solid #777;
+    background-color: rgba(220, 220, 220, 0.8);
+    margin: 30px auto;
+}
+
+th, td {
+    border: 1px solid #777;
+}
+
+th {
+    background-color: #777;
+    color: #fff;
+}
+
+td {
+    text-align: center;
+}
+
+caption {
+    background-color: #777;
+    color: #fff;
+    border: 1px solid #777;
+}

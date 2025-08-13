@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+
+<head> 
+  <meta charset="utf-8"> 
+  <title> Vetores em PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css"> 
+</head>
+
+<body> 
+
+  <h1> ListaL2 - Exercício: Cálculo de média das notas com nomes e vetores </h1>
+
+<?php
+  //receber dados do form e guardamos em variaveis escalares
+  $nota1 = $_POST['nota1'];
+  $nota2 = $_POST['nota2'];
+  $nota3 = $_POST['nota3'];
+  $nome1 = $_POST['nome1'];
+  $nome2 = $_POST['nome2'];
+  $nome3 = $_POST['nome3'];
+
+  //criar o vetor com indice associativo, o nome de cada aluno será o endereço de memoria e a nota do aluno será o conteudo da célula
+
+  $vetornotas = array($nome1 => $nota1, $nome2 => $nota2, $nome3 => $nota3);
+
+  //ordena o vetor em ordem decrescente mantendo as associações entre chave/valor
+  arsort($vetornotas);
+
+  //percorrer o vetor e montar uma tabela na pagina web
+
+  //cabeçalho
+  echo "<table>
+        <tr>
+          <th>Nome</th>
+          <th>Nota</th>
+        </tr>";
+
+foreach($vetornotas as $nome => $nota)
+{
+  echo "<tr>
+          <td>$nome</td>
+          <td>$nota</td>
+        </tr>";
+}
+echo "</table>";
+
+//nesta parte sera encontrado o aluno com maior nota armazenado no vetor
+$maiornota = max($vetornotas);
+
+//acha o indice que ta associado com a maior nota
+$alunocommaiornota = array_search($maiornota, $vetornotas);
+
+echo "<p> Dados do vetor: <br> 
+          Aluno com maior nota: $alunocommaiornota <br>
+          Nota do aluno: $maiornota <br> </p>"
+
+//
+
+?>
+
+
+
+</body>
+</html>

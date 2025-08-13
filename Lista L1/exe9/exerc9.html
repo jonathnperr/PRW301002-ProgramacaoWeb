@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> ListaL1 - Exercício 9: lojinha do centro </h1>
+
+ <form action="exerc9.php" method="post">
+  <fieldset>
+   <legend> Lojinha do centro </legend>
+   <label class="alinha"> Forneça o valor inicial da compra: </label>
+   <input type="number" name="valor-compra" autofocus min="0" step=".01"> <br> <br>
+
+   <label> Escolha a modalidade de pagamento: </label> <br>
+   <input type="radio" name="modalidade-pagamento" value="à vista"> <label> Pagamento à vista </label> <br> 
+   <input type="radio" name="modalidade-pagamento" value="a prazo"> <label> Pagamento a prazo </label> <br> <br>
+ 
+   <input type="checkbox" name="pagamento-cartao" value="sim"> <label> Marque esta opção se o cliente pagou a compra com cartão Visa </label> <br>
+    
+   <button> Finalizar </button>   
+  </fieldset>
+ </form>    
+</body> 
+</html> 

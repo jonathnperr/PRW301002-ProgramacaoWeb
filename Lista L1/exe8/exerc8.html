@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> ListaL1 - Exercicio 8: Botões de checkbox </h1>
+
+ <form action="exerc8.php" method="post">
+  <fieldset>
+    <br>
+    <legend> Mercado </legend>
+    <label class="alinha"> Valor da compra: </label>
+    <input type="number" name="valorcompra" autofocus min="0" step=".01"> <br><br>
+
+    <input type="checkbox" name="modalidade-pagamento" value="sim"> <label> Pagar com cartão </label> <br> <br>
+ 
+    <input type="checkbox" name="entrega-domicilio" value="sim"> <label> Entrega a domicílio </label> <br>
+    
+   <button> Finalizar </button>   
+  </fieldset>
+ </form>    
+</body> 
+</html> 

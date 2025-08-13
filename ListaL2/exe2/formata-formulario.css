@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    margin: 0;
+    font-family: Rubik;
+    background-image: url(https://i.pinimg.com/736x/5e/b3/ba/5eb3babb7437078bc16705bf8b8789a7.jpg);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid #27425E;
+    margin-bottom: 35px;
+    box-shadow: 0 0 5px 5px #B3BEC8;
+    color: aliceblue;
+    background-image: url(https://i.pinimg.com/736x/a2/88/4c/a2884c56997e039f290f9fbcb5b69f06.jpg);
+    text-shadow: 1px 1px 5px #00000050;
+}
+
+fieldset {
+    width: 20%;
+    margin: 30px auto;
+    box-shadow: 5px 5px 5px #b1b1b150;
+    background-color: rgb(255, 255, 255);
+}
+
+label.alinha {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 40px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    font-family: Rubik;
+    font-size: 17px;
+}
+
+input[name="nome-aluno"]{
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+}
+
+p {
+    border: 1px solid #7c7c7c;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+span {
+    font-weight: bold;
+    color: #00000050
+}
+
+table {
+    width: 50%;
+    border:1px solid rgb(0, 0, 0);
+    margin: 20px auto;
+}
+
+td, th {
+    border:1px solid rgb(0, 0, 0);
+}
+
+th {
+    background-color: rgb(255, 255, 255);
+}
+
+
+td {
+    text-align: center;
+}

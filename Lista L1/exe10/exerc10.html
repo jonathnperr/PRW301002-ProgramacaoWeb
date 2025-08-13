@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+  <h1> ListaL1 - Exercício 10: Farmácia </h1>
+
+  <form action="exerc10.php" method="post">
+    <fieldset>
+      <br>
+      <legend> Farmácia </legend>
+
+      <label> Valor da compra: </label>
+      <input type="number" name="valorcompra" autofocus min="0" step="0.01"> <br><br>
+
+      <label> Faixa etária do cliente </label> <br><br>
+      <input type="radio" name="idade" value="0">
+      <label> Cliente com menos de 55 anos. </label> <br>
+      <input type="radio" name="idade" value="1">
+      <label> Cliente com idade entre 55 e 70 anos. </label> <br>
+      <input type="radio" name="idade" value="2">
+      <label> Cliente com idade entre 55 e 70 anos. </label> <br><br>
+
+      <input type="checkbox" name="cartaof" value="1"> 
+      <label> Pagar com cartão de fidelidade da rede </label> <br><br>
+      
+      <button> Finalizar </button>      
+    </fieldset>
+  </form>    
+</body> 
+</html> 

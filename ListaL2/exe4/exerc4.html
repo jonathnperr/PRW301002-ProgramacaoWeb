@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Fundamentos do PHP </title> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Lista L2 - Exercício: Carrinho de compras </h1>
+
+ <form action="exerc4.php" method="post">
+  <fieldset>
+   <legend> Vetores em PHP </legend>
+
+   <label class="alinha"> Selecione os produtos para a compra: </label> <br>
+
+   <input type="checkbox" name="produtos[]" value="Produto cosmético"> <label> Produto cosmético </label> <br>
+   <input type="checkbox" name="produtos[]" value="Chocolate"> <label> Chocolate </label> <br>
+   <input type="checkbox" name="produtos[]" value="Tênis"> <label> Tênis </label> <br>
+
+   <button> Processar </button>
+  </fieldset>
+ </form>    
+</body> 
+</html> 
